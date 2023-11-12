@@ -6,8 +6,8 @@ Implement a program for switching LEDs on/off and dimming them. The program shou
 - When LED state is toggled to ON the program must use same brightness of the LEDs they were at when they were switched off. If LEDs were dimmed to 0% then toggling them on will set 50% brightness.
 - PWM frequency divider must be configured to output 1 MHz frequency and PWM frequency must be 1 kHz.
 
-  ## Code
-  ```c
+## Code
+```c
 #include "pico/stdlib.h"
 #include "hardware/pwm.h"
 #include <stdio.h>
@@ -144,4 +144,4 @@ int main() {
     }
     return 0;
 }
-  ```
+```
